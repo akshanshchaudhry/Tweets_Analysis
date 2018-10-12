@@ -3,6 +3,8 @@ Analysis of tweets text. Gives the sentiment analysis of all the tweets. The dat
 
 • Loding the data
 • Processing and cleaning the data using punctuation, NLTK Stop words etc. Removing all the hashtags, alphatags, special    symbols etc.
+• Getting the most frequest hashtags from the tweets.
+• Plotting the most frequest words used in tweets.
 • Computing the Sentiment Analysis of all the tweets.
 
 I used NLTK to compute the Sentiment Analysis but it can also be done using the TextBlob library (python)
