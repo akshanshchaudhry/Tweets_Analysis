@@ -12,7 +12,5 @@ Code for textblob function is given below:
 from textblob import TextBlob
 
 def textblob_sentiment(arg1):  #arg1 can be any reviews, tweets and similar. Make sure to clean the data first.
-
     sentiment_textblob = TextBlob(reviews)
-
     return(sentiment_textblob.sentiment.polarity)
